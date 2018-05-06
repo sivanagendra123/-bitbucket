@@ -1,6 +1,6 @@
 # -bitbucket
 image blur detection
-#image blur detection
+here i used knn classifier and given datset and tensorflow,scikit-learn framework
 
 #i am putting it in the public format
 #here features are image sizea and number of pixel it occupies and shape
