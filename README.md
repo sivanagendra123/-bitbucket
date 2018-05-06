@@ -2,12 +2,15 @@
 image blur detection
 #image blur detection
 
-i am putting it in the public format
-here features are image sizea and number of pixel it occupies and shape
-#here we use train and test the data in dataset #first convert the data folder into .jar file #install openCV and then create file name as blur_detection.py #import packages tensorflow,sklearn,keras and imulits and gensim #execuete code as python blur_detection.py
+#i am putting it in the public format
+#here features are image sizea and number of pixel it occupies and shape
+#here we use train and test the data in dataset #first convert the data folder into .jar file 
+#install openCV and then create file name as blur_detection.py
+#import packages tensorflow,sklearn,keras and imulits and gensim #execuete code as python blur_detection.py
 
-it can be trained by tensorflow
-#for that one we have to download tensorflow package #then train run script as #$ python -m scripts.retrain 
+#it can be trained by tensorflow
+#for that one we have to download tensorflow package #then train run script as
+#$ python -m scripts.retrain 
 --bottleneck_dir=tf_files/bottlenecks 
 --how_many_training_steps=500 
 --model_dir=tf_files/models/ 
