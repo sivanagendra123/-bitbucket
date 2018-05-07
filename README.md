@@ -2,6 +2,11 @@
 #image blur detection
 # i am putting it in the public format
 # here features are image sizea  and number of pixel it occupies and shape
+#the project consist four parts 
+#1 classsification-KNN classifier
+#2 traing
+#3 testing and validation
+#4 find accuracy
 #here we use train and test the data in dataset
 #first convert the data folder into .jar file
 #install openCV and then create file name as blur_detection.py
