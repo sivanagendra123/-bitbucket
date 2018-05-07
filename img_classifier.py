@@ -12,8 +12,8 @@ import tensorflow as tf
 from tensorflow.contrib import learn
 def main(unused_in):
     #load dataset
-    iris=learn.datasets.load_dataset('iris')
-    x_train,y_train,x_test,y_test=cross_validation.train_test_split(iris.data,iris.target,test_size=.2,random_state=42)
+    iris=learn.datasets.load_dataset('CERN')
+    x_train,y_train,x_test,y_test=cross_validation.train_test_split(CERN.data,CERN.target,test_size=.2,random_state=42)
     #build 3 layer DNN with 10,20,10 hidden layers
     clasifier=learn.DNNClassifier(hidden_units=[10,20,10],n_classes=3)
     #fit and predict
